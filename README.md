@@ -84,7 +84,7 @@ mindset: Agentic AI-First, Automation-First, High Throughput, Rapid Execution
       <h3 align="center">⚡ <a href="https://github.com/kinagiabhishek/code-lab">code-lab</a></h3>
       <p align="center"><i>Primary monorepo consolidating authentic Java algorithms, data structures, and automation scripts.</i></p>
       <ul>
-        <li><b>🧮 50+ Authentic Data Structures & Algos Suite</b>: Java suite with Line-1 LeetCode Links covering <b>Trees, Graphs, Stacks/Queues, Linked Lists, Heaps, Backtracking, DP, Sliding Window, Binary Search, & Bit Manipulation</b> (<a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo/java">Core Java DS</a> • <a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo/leetcode-practice/java">Java LeetCode Suite</a>)</li>
+        <li><b>🧮 76+ Authentic Data Structures & Algos Suite</b>: Java suite with Line-1 LeetCode Links covering <b>Trees, Graphs, Stacks/Queues, Linked Lists, Heaps, Backtracking, DP, Sliding Window, Binary Search, & Bit Manipulation</b> (<a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo/java">Core Java DS</a> • <a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo/leetcode-practice/java">Java LeetCode Suite</a>)</li>
         <li><b>🤖 Automations</b>: Selenium & Playwright browser scripts (<a href="https://github.com/kinagiabhishek/code-lab/tree/master/automations/resume-uploader">Resume Uploader</a>)</li>
         <li><b>🐍 Python Solvers</b>: Logical constraint resolution tools (<a href="https://github.com/kinagiabhishek/code-lab/tree/master/scripts/verity-solver">Verity Solver</a>)</li>
       </ul>
