@@ -9,6 +9,9 @@
 </p>
 
 <p align="center">
+  <a href="https://kinagiabhishek.github.io/kinagiabhishek/" target="_blank">
+    <img src="https://img.shields.io/badge/Live_Portfolio-kinagiabhishek.github.io-00f2fe?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio Website" />
+  </a>
   <a href="https://www.linkedin.com/in/kinagiabhishek/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
