@@ -127,7 +127,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(10, 12, 16, 0.8);
+  background: rgba(10, 12, 16, 0.85);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border-glass);
   padding: 16px 0;
@@ -141,18 +141,18 @@ header {
 
 .logo {
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--text-primary);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .logo-badge {
   background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
   color: #000;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 800;
@@ -195,14 +195,14 @@ header {
 
 /* Hero Section */
 .hero {
-  padding-top: 170px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 60px;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 50px;
   align-items: center;
 }
 
@@ -221,13 +221,13 @@ header {
 }
 
 .hero-title {
-  font-size: 3.5rem;
-  line-height: 1.1;
+  font-size: 3.4rem;
+  line-height: 1.15;
   margin-bottom: 20px;
 }
 
 .hero-desc {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   color: var(--text-secondary);
   line-height: 1.6;
   margin-bottom: 32px;
@@ -236,7 +236,6 @@ header {
 .hero-buttons {
   display: flex;
   gap: 16px;
-  margin-bottom: 40px;
 }
 
 .btn-primary {
@@ -274,7 +273,53 @@ header {
   color: var(--accent-cyan);
 }
 
-/* Terminal Preview Component */
+/* Profile Photo & Avatar Component */
+.profile-avatar-container {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+  box-shadow: 0 0 35px rgba(0, 242, 254, 0.25);
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--bg-primary);
+}
+
+.profile-status-pill {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #161b22;
+  border: 1px solid var(--border-glow);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--accent-green);
+}
+
+/* Terminal Window Component */
 .terminal-window {
   background: #0d1117;
   border: 1px solid var(--border-glass);
@@ -286,18 +331,14 @@ header {
 
 .terminal-header {
   background: #161b22;
-  padding: 12px 16px;
+  padding: 10px 16px;
   display: flex;
   align-items: center;
   gap: 8px;
   border-bottom: 1px solid var(--border-glass);
 }
 
-.dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
+.dot { width: 10px; height: 10px; border-radius: 50%; }
 .dot-red { background: #ff5f56; }
 .dot-yellow { background: #ffbd2e; }
 .dot-green { background: #27c93f; }
@@ -310,9 +351,9 @@ header {
 }
 
 .terminal-body {
-  padding: 20px;
-  font-size: 0.85rem;
-  line-height: 1.7;
+  padding: 16px;
+  font-size: 0.82rem;
+  line-height: 1.6;
 }
 
 .t-prompt { color: var(--accent-cyan); }
@@ -320,18 +361,19 @@ header {
 .t-out { color: var(--text-secondary); }
 .t-highlight { color: var(--accent-green); }
 
-/* Experience & Domain Section */
-.domain-card {
-  padding: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
+/* Timeline Experience Section */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 
-.domain-info h3 {
-  font-size: 1.8rem;
-  margin-bottom: 12px;
+.timeline-item {
+  padding: 32px;
+}
+
+.timeline-header {
+  margin-bottom: 16px;
 }
 
 .company-badge {
@@ -343,23 +385,78 @@ header {
   border-radius: 6px;
   font-size: 0.85rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+.company-badge.gs-badge {
+  background: rgba(255, 179, 0, 0.15);
+  color: #ffb300;
+  border-color: rgba(255, 179, 0, 0.3);
+}
+.company-badge.num-badge {
+  background: rgba(112, 0, 255, 0.15);
+  color: #a855f7;
+  border-color: rgba(112, 0, 255, 0.3);
 }
 
-.domain-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 24px;
+.timeline-item h3 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
 }
 
-.tag {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-glass);
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.8rem;
+.timeline-date {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.experience-list {
+  padding-left: 20px;
+  line-height: 1.7;
   color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+.experience-list li {
+  margin-bottom: 8px;
+}
+
+/* Education Section */
+.edu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.edu-card {
+  padding: 32px;
+}
+
+.edu-icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
+
+.edu-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.edu-degree {
+  color: var(--accent-cyan);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+.edu-school {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+}
+
+.edu-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 /* LeetCode & Problem Solving Metrics */
@@ -455,7 +552,7 @@ footer {
 
 /* Responsive */
 @media (max-width: 900px) {
-  .hero-grid, .domain-card {
+  .hero-grid, .edu-grid {
     grid-template-columns: 1fr;
   }
   .hero-title {

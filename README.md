@@ -1,11 +1,15 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Software+Engineer+%40+Morgan+Stanley;Equity+Structured+Products+%E2%80%A2+FinTech;C%2B%2B+%E2%80%A2+Java+%E2%80%A2+Python+%E2%80%A2+AI-First+Dev;280%2B+LeetCode+Problems+Solved" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+280%2B+LeetCode+Solved" alt="Typing SVG" />
   </a>
 </h1>
 
 <p align="center">
-  <b>Software Engineer @ Morgan Stanley</b> • Equity Structured Products (IST) • AI-First Developer
+  <img src="profile.png" width="140" height="140" style="border-radius: 50%; border: 3px solid #61afef;" alt="Abhishek Kinagi" />
+</p>
+
+<p align="center">
+  <b>Director P3 @ Morgan Stanley</b> • Equity Structured Products (IST) • MS in CS (ASU)
 </p>
 
 <p align="center">
@@ -25,20 +29,37 @@
 
 ---
 
-### 💻 Executive Profile
+### 💻 Executive Overview
 
 ```yaml
 name: Abhishek Kinagi
-role: Software Engineer
+role: Director P3
 company: Morgan Stanley (Institutional Securities Technology - IST)
-domain: Equity Structured Products (Termsheet, Pre-Trade & Post-Trade Docs)
-specialties: High-Throughput Systems, Financial Tech, Problem Solving, Automations
-mindset: AI-First, Rapid Execution, Deep Product & Regulatory Domain Knowledge
+division: Equity Structured Products (Trade Capture & Document Generation Platforms)
+education:
+  - MS in Computer Science, Arizona State University (ASU)
+  - BTech in Computer Science & Engineering, VNIT Nagpur
+prior_experience:
+  - Technology Analyst @ Goldman Sachs (PWM Books & Records)
+  - Associate Software Developer @ Numerify (ETL & Spark ML Platform)
+technical_stack: Java, Scala, C++, Python, Sybase SQL, AWS Redshift, Selenium, Bash
+mindset: Agentic AI-First, Automation-First, High Throughput, Rapid Execution
 ```
 
-- 🏦 **Finance & Technology**: Engineer in **Morgan Stanley's IST division**, designing pre-trade and post-trade documentation engines & termsheet systems for Equity Structured Products.
-- 🧠 **Algorithmic Problem Solver**: 280+ LeetCode problems solved across C++, Java, and Python.
-- 🤖 **AI-First Developer**: Passionate about leveraging autonomous AI agents (`agy`) for accelerated delivery and scalable software design.
+---
+
+### 💼 Career Snapshot
+
+- 🏦 **Morgan Stanley (Director P3 - Equity Structured Products)**:
+  - Engineering high-throughput trade capture & document generation engines in **Java and Scala**.
+  - Driving migration of legacy repositories onto centralized build platforms for enhanced CI/CD reliability.
+  - Championing **agentic AI workflows** (`agy`) and automation-first engineering across teams.
+- 🏛️ **Goldman Sachs (Technology Analyst - Private Wealth Management)**:
+  - Developed Books & Records & Asset Servicing applications in Java, Sybase SQL, and Bash.
+  - Automated software support framework, reducing manual intervention by **25%** and boosting DB scan speed by **40%**.
+- 📊 **Numerify (Associate Software Developer - Platform)**:
+  - Built BI Application Modeler & automated ETL data pipelines on AWS Redshift with Z-Standard compression.
+  - Provisioned Spark Machine Learning training/execution platform for client data prediction metrics.
 
 ---
 
@@ -73,17 +94,6 @@ mindset: AI-First, Rapid Execution, Deep Product & Regulatory Domain Knowledge
 
 ---
 
-### 🛠️ Tech Stack & Ecosystem
-
-| Category | Technologies |
-| :--- | :--- |
-| **Languages** | ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=microsoft-sql-server&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
-| **Automation & QA** | ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
-| **Domain & FinTech** | ![Equity Structured Products](https://img.shields.io/badge/Equity_Structured_Products-Morgan_Stanley-002D62?style=flat-square) ![Pre/Post Trade](https://img.shields.io/badge/Pre%2FPost_Trade_Docs-IST-1E88E5?style=flat-square) |
-| **Tools & AI** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub CLI](https://img.shields.io/badge/GitHub_CLI-181717?style=flat-square&logo=github&logoColor=white) ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white) ![Antigravity](https://img.shields.io/badge/AGY_AI_CLI-4285F4?style=flat-square&logo=google&logoColor=white) |
-
----
-
 ### 📊 GitHub Analytics
 
 <p align="center">
@@ -95,5 +105,8 @@ mindset: AI-First, Rapid Execution, Deep Product & Regulatory Domain Knowledge
 ---
 
 <p align="center">
-  🌐 <b>Connect</b>: <a href="https://www.linkedin.com/in/kinagiabhishek/">LinkedIn</a> • <a href="https://leetcode.com/u/kinagiabhishek/">LeetCode</a> • <a href="https://github.com/kinagiabhishek">GitHub</a>
+  🌐 <b>Portfolio</b>: <a href="https://kinagiabhishek.github.io/kinagiabhishek/">kinagiabhishek.github.io</a> • 
+  💼 <b>LinkedIn</b>: <a href="https://www.linkedin.com/in/kinagiabhishek/">kinagiabhishek</a> • 
+  🧮 <b>LeetCode</b>: <a href="https://leetcode.com/u/kinagiabhishek/">kinagiabhishek</a> • 
+  📧 <b>Email</b>: <a href="mailto:kinagiabhishek@gmail.com">kinagiabhishek@gmail.com</a>
 </p>
