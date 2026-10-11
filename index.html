@@ -32,7 +32,7 @@
         <span class="ticker-badge matcha-badge">Fuel</span> Ceremonial Uji Matcha 🍵
       </div>
       <div class="ticker-item">
-        <span class="ticker-badge algo-badge">LeetCode</span> 290 Solved (137 Med)
+        <span class="ticker-badge stack-badge">Scale</span> High-Throughput Financial Platforms
       </div>
     </div>
   </div>
@@ -48,8 +48,7 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Arsenal</a></li>
         <li><a href="#monorepo">code-lab</a></li>
-        <li><a href="#leetcode">LeetCode</a></li>
-        <li><a href="#education">Education</a></li>
+        <li><a href="#education">Education & Leadership</a></li>
       </ul>
       <div class="nav-actions">
         <button id="theme-toggle-btn" class="nav-btn-theme" title="Toggle theme (Light / Dark)">
@@ -82,7 +81,7 @@
             📥 View Resume (PDF)
           </a>
           <a href="https://github.com/kinagiabhishek/code-lab" target="_blank" class="btn-secondary">
-            ⚡ Explore code-lab (567 Solves) ↗
+            ⚡ Explore code-lab Monorepo ↗
           </a>
           <button id="sip-matcha-btn" class="btn-fun" title="Take a sip of matcha">
             🍵 Sip Matcha
@@ -115,7 +114,7 @@
             <button class="t-chip" data-cmd="whoami">whoami</button>
             <button class="t-chip" data-cmd="ai">ai pipelines 🤖</button>
             <button class="t-chip" data-cmd="skills">skills</button>
-            <button class="t-chip" data-cmd="leetcode">leetcode</button>
+            <button class="t-chip" data-cmd="projects">projects</button>
             <button class="t-chip" data-cmd="matcha">matcha 🍵</button>
             <button class="t-chip" data-cmd="resume">cat resume</button>
             <button class="t-chip" data-cmd="clear">clear</button>
@@ -126,14 +125,13 @@
             <div class="t-out">► Abhishek Kinagi — Director P3 @ Morgan Stanley (IST)</div>
             <div class="t-out">► Department AI Innovator: Converting product epics to production code in days via agentic pipelines</div>
             <div class="t-out">► Systems: High-throughput Trade Capture & Document Generation (Java 26 / Scala)</div>
-            <div class="t-out">► Alum: MS in CS (ASU) • BTech in CS (VNIT Nagpur)</div>
-            <div class="t-out">► LeetCode: <span class="t-highlight">290 Solved</span> (146 Easy | 137 Med | 7 Hard)</div>
+            <div class="t-out">► Alum: MS in CS (ASU) • BTech in CS (VNIT Nagpur - 4 Yrs Student Leadership)</div>
             <div class="t-out">► Vibe: <span class="t-matcha">Ceremonial matcha, clean git trees & low latency 🍵</span></div>
           </div>
 
           <div class="terminal-input-bar">
             <span class="t-prompt">kinagi@workstation:~$</span>
-            <input type="text" id="terminal-input" placeholder="Type a command (ai, skills, matcha, help)..." autocomplete="off" spellcheck="false" />
+            <input type="text" id="terminal-input" placeholder="Type a command (ai, skills, projects, help)..." autocomplete="off" spellcheck="false" />
             <button id="terminal-run-btn" title="Execute command">↵</button>
           </div>
         </div>
@@ -321,14 +319,14 @@
       <h2 class="section-title">
         <span class="gradient-text">Consolidated Monorepo (`code-lab`)</span>
       </h2>
-      <p class="section-subtitle">Primary workspace consolidating 567 verified algorithms, data structures, and automation utilities</p>
+      <p class="section-subtitle">Primary workspace consolidating verified algorithms, browser automations, and constraint solvers</p>
 
       <div class="monorepo-grid">
         <div class="glass-card repo-subcard">
           <div class="repo-icon">🧮</div>
-          <h4>567 Verified Java Solutions</h4>
-          <p>100% verified Java implementations across 14 topic domains. Sourced with official LeetCode GraphQL method signatures and tested with OpenJDK 26.</p>
-          <a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo/leetcode-practice/java" target="_blank">Browse `leetcode-practice/java` ↗</a>
+          <h4>Data Structures & Algorithms</h4>
+          <p>Verified Java implementations across Trees, Graphs, Dynamic Programming, and Concurrency. Sourced with official signatures and regression tests.</p>
+          <a href="https://github.com/kinagiabhishek/code-lab/tree/master/ds-algo" target="_blank">Browse `ds-algo/` ↗</a>
         </div>
 
         <div class="glass-card repo-subcard">
@@ -348,172 +346,13 @@
     </div>
   </section>
 
-  <!-- LeetCode & Problem Solving Metrics -->
-  <section id="leetcode">
-    <div class="container">
-      <h2 class="section-title">
-        <span class="gradient-text">LeetCode Metrics & Algorithmic Craft</span>
-      </h2>
-      <p class="section-subtitle">Empirical problem-solving achievements across core computer science domains</p>
-
-      <div class="metrics-grid">
-        <div class="glass-card metric-card">
-          <div class="metric-num gradient-text" id="leetcode-total">290</div>
-          <div class="metric-label">Total Solved</div>
-        </div>
-
-        <div class="glass-card metric-card">
-          <div class="metric-num easy-color" id="leetcode-easy">146</div>
-          <div class="metric-label">Easy Solved</div>
-        </div>
-
-        <div class="glass-card metric-card">
-          <div class="metric-num med-color" id="leetcode-med">137</div>
-          <div class="metric-label">Medium Solved</div>
-        </div>
-
-        <div class="glass-card metric-card">
-          <div class="metric-num hard-color" id="leetcode-hard">7</div>
-          <div class="metric-label">Hard Solved</div>
-        </div>
-      </div>
-
-      <!-- Algorithmic Highlights Showcase -->
-      <h3 class="algo-showcase-title">
-        <span>⚡</span> Recent Algorithmic Solves & Highlights
-      </h3>
-
-      <div class="algo-grid">
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/design-add-and-search-words-data-structure/" target="_blank" class="algo-title">
-                Design Add and Search Words Data Structure
-              </a>
-              <span class="diff-badge med">Medium</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Trie</span>
-              <span class="algo-tag">DFS / Wildcard</span>
-              <span class="algo-tag">LC #211</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/arrays_and_hashing/DesignAddAndSearchWordsDataStructure.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/array-partition/" target="_blank" class="algo-title">
-                Array Partition
-              </a>
-              <span class="diff-badge easy">Easy</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Greedy</span>
-              <span class="algo-tag">Sorting</span>
-              <span class="algo-tag">LC #561</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/arrays_and_hashing/ArrayPartition.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/count-and-say/" target="_blank" class="algo-title">
-                Count and Say
-              </a>
-              <span class="diff-badge med">Medium</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Run-Length Encoding</span>
-              <span class="algo-tag">String</span>
-              <span class="algo-tag">LC #38</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/arrays_and_hashing/CountAndSay.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/longest-consecutive-sequence/" target="_blank" class="algo-title">
-                Longest Consecutive Sequence
-              </a>
-              <span class="diff-badge med">Medium</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Hash Set</span>
-              <span class="algo-tag">O(N) Optimal</span>
-              <span class="algo-tag">LC #128</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/arrays_and_hashing/LongestConsecutiveSequence.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/subsets/" target="_blank" class="algo-title">
-                Subsets
-              </a>
-              <span class="diff-badge med">Medium</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Backtracking</span>
-              <span class="algo-tag">Cascading</span>
-              <span class="algo-tag">LC #78</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/backtracking/Subsets.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-
-        <div class="glass-card algo-card">
-          <div>
-            <div class="algo-card-header">
-              <a href="https://leetcode.com/problems/course-schedule-ii/" target="_blank" class="algo-title">
-                Course Schedule II
-              </a>
-              <span class="diff-badge med">Medium</span>
-            </div>
-            <div class="algo-tags" style="margin-top: 10px;">
-              <span class="algo-tag">Graph / DAG</span>
-              <span class="algo-tag">Topological Sort</span>
-              <span class="algo-tag">LC #210</span>
-            </div>
-          </div>
-          <div class="algo-card-footer">
-            <span>Verified in code-lab</span>
-            <a href="https://github.com/kinagiabhishek/code-lab/blob/master/ds-algo/leetcode-practice/java/graphs/CourseScheduleII.java" target="_blank" class="algo-repo-link">View Java Source ↗</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
+  <!-- Education & Campus Leadership Section -->
   <section id="education">
     <div class="container">
       <h2 class="section-title">
-        <span class="gradient-text">Education & Academic Background</span>
+        <span class="gradient-text">Education & Campus Leadership</span>
       </h2>
-      <p class="section-subtitle">Rigorous Computer Science foundations from top institutions</p>
+      <p class="section-subtitle">Rigorous Computer Science foundations and multi-year organizational management</p>
 
       <div class="edu-grid">
         <div class="glass-card edu-card">
@@ -532,6 +371,15 @@
           <p class="edu-desc">Core Algorithms, Data Structures, Operating Systems, Computer Networks & Object-Oriented Design.</p>
         </div>
       </div>
+
+      <div class="glass-card" style="margin-top: 24px; padding: 26px;">
+        <h4 style="font-size: 1.15rem; margin-bottom: 8px; color: var(--accent-cyan); display: flex; align-items: center; gap: 8px;">
+          <span>🏛️</span> 4-Year Student Leadership & Operations Management @ VNIT Nagpur
+        </h4>
+        <p style="color: var(--text-secondary); line-height: 1.6; font-size: 0.92rem;">
+          Spearheaded institute-wide student operations, annual festival budgeting, inter-departmental logistics, and multi-tiered volunteer teams continuously across all 4 undergraduate years. Coordinated directly with university administration and faculty heads to successfully execute large-scale technical, cultural, and departmental initiatives.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -545,7 +393,6 @@
       <p style="color: var(--text-muted); font-size: 0.85rem;">
         <a href="mailto:kinagiabhishek@gmail.com" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">kinagiabhishek@gmail.com</a> |
         <a href="https://www.linkedin.com/in/kinagiabhishek/" target="_blank" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">LinkedIn</a> |
-        <a href="https://leetcode.com/u/kinagiabhishek/" target="_blank" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">LeetCode</a> |
         <a href="https://github.com/kinagiabhishek" target="_blank" style="color: var(--text-secondary); text-decoration: none; margin: 0 10px;">GitHub</a>
       </p>
     </div>

@@ -44,48 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
   updateISTClock();
   setInterval(updateISTClock, 1000);
 
-  // 3. Animated LeetCode Metrics Counters
-  const counters = [
-    { id: 'leetcode-total', target: 290 },
-    { id: 'leetcode-easy', target: 146 },
-    { id: 'leetcode-med', target: 137 },
-    { id: 'leetcode-hard', target: 7 }
-  ];
-
-  const animateCounter = (element, target) => {
-    let current = 0;
-    const increment = Math.max(1, Math.ceil(target / 45));
-    const timer = setInterval(() => {
-      current += increment;
-      if (current >= target) {
-        element.textContent = target;
-        clearInterval(timer);
-      } else {
-        element.textContent = current;
-      }
-    }, 25);
-  };
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        counters.forEach(counter => {
-          const el = document.getElementById(counter.id);
-          if (el && entry.target.contains(el)) {
-            animateCounter(el, counter.target);
-          }
-        });
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.25 });
-
-  const leetcodeSection = document.getElementById('leetcode');
-  if (leetcodeSection) {
-    observer.observe(leetcodeSection);
-  }
-
-  // 4. Toast Notification Helper
+  // 3. Toast Notification Helper
   const toastContainer = document.getElementById('toast-container');
   const showToast = (message, isMatcha = false) => {
     if (!toastContainer) return;
@@ -104,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3200);
   };
 
-  // 5. One-Click Copy Email
+  // 4. One-Click Copy Email
   const copyBtn = document.getElementById('copy-email-btn');
   const copyText = document.getElementById('copy-text');
   if (copyBtn) {
@@ -122,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 6. Fun "Sip Matcha" Button
+  // 5. Fun "Sip Matcha" Button
   const matchaBtn = document.getElementById('sip-matcha-btn');
   const matchaQuotes = [
     "🍵 Ceremonial Uji matcha sipped! +10 Focus, 0 compiler warnings.",
@@ -139,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 7. Interactive Terminal CLI
+  // 6. Interactive Terminal CLI
   const terminalScreen = document.getElementById('terminal-screen');
   const terminalInput = document.getElementById('terminal-input');
   const terminalRunBtn = document.getElementById('terminal-run-btn');
@@ -172,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="t-out">► <strong>Abhishek Kinagi</strong> — Director P3 @ Morgan Stanley (IST)</div>
           <div class="t-out">► Department AI Innovator: Converting product epics to production code in days via agentic pipelines</div>
           <div class="t-out">► Systems: High-throughput Trade Capture & Document Generation (Java 26 / Scala)</div>
-          <div class="t-out">► Education: MS in CS (Arizona State) • BTech in CS (VNIT Nagpur)</div>
+          <div class="t-out">► Alum: MS in CS (Arizona State) • BTech in CS (VNIT Nagpur)</div>
           <div class="t-out">► Background: Ex-Goldman Sachs (Private Wealth Management) • Ex-Numerify</div>
           <div class="t-out">► Fuel: <span class="t-matcha">Ceremonial Japanese Matcha 🍵</span></div>
         `);
@@ -200,15 +159,6 @@ document.addEventListener('DOMContentLoaded', () => {
         `);
         break;
 
-      case 'leetcode':
-      case 'algo':
-        appendToTerminal(`
-          <div class="t-out">► <span class="t-highlight">Total Solved:</span> <strong>290</strong> (146 Easy | 137 Medium | 7 Hard)</div>
-          <div class="t-out">► <span class="t-highlight">Monorepo:</span> <code>code-lab</code> with 567 100% verified Java solutions!</div>
-          <div class="t-out">► <span class="t-highlight">Recent Solves:</span> Design Add and Search Words Data Structure (Trie), Array Partition, Count and Say</div>
-        `);
-        break;
-
       case 'matcha':
         appendToTerminal(`
           <div class="t-out"><span class="t-matcha">🍵 Whisking ceremonial grade Uji matcha...</span></div>
@@ -229,8 +179,15 @@ document.addEventListener('DOMContentLoaded', () => {
       case 'projects':
       case 'repos':
         appendToTerminal(`
-          <div class="t-out">⚡ <strong>code-lab:</strong> Monorepo holding 567 verified Java DSA solutions, Playwright automations, and Python solvers.</div>
+          <div class="t-out">⚡ <strong>code-lab:</strong> Monorepo holding verified Java algorithms, Playwright automations, and Python solvers.</div>
           <div class="t-out">🤖 <strong>ResumeUploader:</strong> Automated browser application processor for Chromium/Firefox.</div>
+        `);
+        break;
+
+      case 'leadership':
+      case 'vnit':
+        appendToTerminal(`
+          <div class="t-out">🏛️ <strong>VNIT Nagpur (4 Years Management):</strong> Directed institute-wide student operations, budget allocations, logistics, and multi-department teams for university festivals.</div>
         `);
         break;
 
@@ -256,14 +213,14 @@ document.addEventListener('DOMContentLoaded', () => {
       case 'help':
         appendToTerminal(`
           <div class="t-out">Available commands:</div>
-          <div class="t-out">  <span class="t-highlight">whoami</span>    - Executive profile & background</div>
-          <div class="t-out">  <span class="t-ai">ai</span>        - Agentic workflows & AI engineering pipelines</div>
-          <div class="t-out">  <span class="t-highlight">skills</span>    - Core weapons & technology stack</div>
-          <div class="t-out">  <span class="t-highlight">leetcode</span>  - Real-time algorithmic metrics & recent solves</div>
-          <div class="t-out">  <span class="t-highlight">matcha</span>    - Brew fresh ceremonial matcha 🍵</div>
-          <div class="t-out">  <span class="t-highlight">resume</span>    - View / Download updated PDF resume</div>
-          <div class="t-out">  <span class="t-highlight">projects</span>  - Monorepo highlights (code-lab)</div>
-          <div class="t-out">  <span class="t-highlight">clear</span>     - Clear terminal buffer</div>
+          <div class="t-out">  <span class="t-highlight">whoami</span>      - Executive profile & background</div>
+          <div class="t-out">  <span class="t-ai">ai</span>          - Agentic workflows & AI engineering pipelines</div>
+          <div class="t-out">  <span class="t-highlight">skills</span>      - Core weapons & technology stack</div>
+          <div class="t-out">  <span class="t-highlight">projects</span>    - Monorepo highlights (code-lab)</div>
+          <div class="t-out">  <span class="t-highlight">leadership</span>  - 4-year student management @ VNIT</div>
+          <div class="t-out">  <span class="t-highlight">matcha</span>      - Brew fresh ceremonial matcha 🍵</div>
+          <div class="t-out">  <span class="t-highlight">resume</span>      - View / Download updated 1-page PDF resume</div>
+          <div class="t-out">  <span class="t-highlight">clear</span>       - Clear terminal buffer</div>
         `);
         break;
 
@@ -314,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 8. Interactive Skills / Weapons Filter
+  // 7. Interactive Skills / Weapons Filter
   const skillTabs = document.querySelectorAll('.skill-tab');
   const skillCards = document.querySelectorAll('.skill-card');
 

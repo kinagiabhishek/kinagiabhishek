@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+290%2B+LeetCode+Solved" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+Agentic+AI+Innovator" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -19,9 +19,6 @@
   <a href="https://www.linkedin.com/in/kinagiabhishek/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://leetcode.com/u/kinagiabhishek/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
   <a href="https://github.com/kinagiabhishek/code-lab">
     <img src="https://img.shields.io/badge/Featured_Repo-code--lab-98C379?style=for-the-badge&logo=github" alt="Featured Repo" />
   </a>
@@ -38,7 +35,7 @@ company: Morgan Stanley (Institutional Securities Technology - IST)
 division: Equity Structured Products (Trade Capture & Document Generation Platforms)
 education:
   - MS in Computer Science, Arizona State University (ASU)
-  - BTech in Computer Science & Engineering, VNIT Nagpur
+  - BTech in Computer Science & Engineering, VNIT Nagpur (4-Year Campus Leadership & Event Operations)
 prior_experience:
   - Technology Analyst @ Goldman Sachs (PWM Books & Records)
   - Associate Software Developer @ Numerify (ETL & Spark ML Platform)
@@ -62,19 +59,6 @@ mindset: Agentic AI-First, Autonomous Multi-Agent Systems, High Throughput, Rapi
 - 📊 **Numerify (Associate Software Developer - Platform)**:
   - Built BI Application Modeler & automated ETL data pipelines on AWS Redshift with Z-Standard compression.
   - Provisioned Spark Machine Learning training/execution platform for client data prediction metrics.
-
----
-
-### 🧮 LeetCode Metrics
-
-<p align="center">
-  <a href="https://leetcode.com/u/kinagiabhishek/">
-    <img src="https://img.shields.io/badge/LeetCode_Solved-290_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Solved" />
-    <img src="https://img.shields.io/badge/Easy-146-00B8A3?style=for-the-badge" alt="Easy" />
-    <img src="https://img.shields.io/badge/Medium-137-FFC01E?style=for-the-badge" alt="Medium" />
-    <img src="https://img.shields.io/badge/Hard-7-FF375F?style=for-the-badge" alt="Hard" />
-  </a>
-</p>
 
 ---
 
@@ -109,6 +93,5 @@ mindset: Agentic AI-First, Autonomous Multi-Agent Systems, High Throughput, Rapi
 <p align="center">
   🌐 <b>Portfolio</b>: <a href="https://kinagiabhishek.github.io/kinagiabhishek/">kinagiabhishek.github.io</a> • 
   💼 <b>LinkedIn</b>: <a href="https://www.linkedin.com/in/kinagiabhishek/">kinagiabhishek</a> • 
-  🧮 <b>LeetCode</b>: <a href="https://leetcode.com/u/kinagiabhishek/">kinagiabhishek</a> • 
   📧 <b>Email</b>: <a href="mailto:kinagiabhishek@gmail.com">kinagiabhishek@gmail.com</a>
 </p>
