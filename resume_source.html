@@ -6,7 +6,7 @@
   <style>
     @page {
       size: A4;
-      margin: 12mm 14mm;
+      margin: 8mm 12mm;
     }
     * {
       box-sizing: border-box;
@@ -17,17 +17,17 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       color: #1e293b;
       background: #fff;
-      font-size: 10pt;
-      line-height: 1.45;
+      font-size: 8.5pt;
+      line-height: 1.35;
     }
     a {
-      color: #0284c7;
+      color: #0369a1;
       text-decoration: none;
     }
     header {
-      border-bottom: 2px solid #0284c7;
-      padding-bottom: 10px;
-      margin-bottom: 14px;
+      border-bottom: 1.5px solid #0284c7;
+      padding-bottom: 6px;
+      margin-bottom: 8px;
     }
     .header-row {
       display: flex;
@@ -35,54 +35,49 @@
       align-items: baseline;
     }
     h1 {
-      font-size: 22pt;
+      font-size: 18pt;
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
     }
     .title-sub {
-      font-size: 11pt;
-      font-weight: 600;
+      font-size: 9.5pt;
+      font-weight: 700;
       color: #0284c7;
-      margin-top: 2px;
+      margin-top: 1px;
     }
     .contact-info {
-      font-size: 8.5pt;
+      font-size: 8pt;
       color: #475569;
-      margin-top: 6px;
+      margin-top: 4px;
       display: flex;
-      gap: 14px;
+      gap: 12px;
       flex-wrap: wrap;
     }
-    .contact-info span {
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-    }
     .section {
-      margin-bottom: 13px;
-    }
-    .section-title {
-      font-size: 11pt;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: #0f172a;
-      border-bottom: 1px solid #cbd5e1;
-      padding-bottom: 3px;
       margin-bottom: 8px;
     }
-    .summary-text {
+    .section-title {
       font-size: 9.5pt;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #0f172a;
+      border-bottom: 1px solid #cbd5e1;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+    }
+    .summary-text {
+      font-size: 8.3pt;
       color: #334155;
-      line-height: 1.5;
+      line-height: 1.35;
     }
     .skills-grid {
       display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 5px 12px;
-      font-size: 9pt;
-      line-height: 1.4;
+      grid-template-columns: 145px 1fr;
+      gap: 3px 8px;
+      font-size: 8.2pt;
+      line-height: 1.3;
     }
     .skill-cat {
       font-weight: 700;
@@ -92,7 +87,7 @@
       color: #334155;
     }
     .job-entry {
-      margin-bottom: 11px;
+      margin-bottom: 7px;
     }
     .job-header {
       display: flex;
@@ -101,55 +96,55 @@
       margin-bottom: 2px;
     }
     .job-title {
-      font-size: 10.5pt;
+      font-size: 9.2pt;
       font-weight: 700;
       color: #0f172a;
     }
     .company {
-      font-size: 10pt;
-      font-weight: 600;
+      font-size: 9.2pt;
+      font-weight: 700;
       color: #0284c7;
     }
     .job-date {
-      font-size: 8.5pt;
+      font-size: 8pt;
       color: #64748b;
-      font-weight: 500;
+      font-weight: 600;
     }
     .job-location {
-      font-size: 8.5pt;
+      font-size: 8pt;
       color: #64748b;
       font-style: italic;
     }
     ul.job-bullets {
-      padding-left: 16px;
-      margin-top: 4px;
+      padding-left: 14px;
+      margin-top: 2px;
     }
     ul.job-bullets li {
-      font-size: 9pt;
+      font-size: 8.2pt;
       color: #334155;
-      margin-bottom: 3.5px;
-      line-height: 1.42;
+      margin-bottom: 2.5px;
+      line-height: 1.32;
     }
     ul.job-bullets li strong {
       color: #0f172a;
     }
-    .edu-entry {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 6px;
+    .edu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .edu-item {
+      font-size: 8.2pt;
     }
     .edu-school {
-      font-size: 9.5pt;
       font-weight: 700;
       color: #0f172a;
     }
     .edu-degree {
-      font-size: 9pt;
       color: #334155;
     }
     .edu-date {
-      font-size: 8.5pt;
+      font-size: 7.8pt;
       color: #64748b;
     }
   </style>
@@ -175,23 +170,21 @@
   <section class="section">
     <div class="section-title">Executive Summary</div>
     <p class="summary-text">
-      Director at Morgan Stanley in the Equity Structured Products division (IST) with a strong foundation in distributed systems, high-throughput architectures, and algorithmic problem-solving. Recognized department innovator and leader in mature agentic AI engineering workflows, converting product epics into production-ready software in days. Extensive track record across Morgan Stanley, Goldman Sachs, and Numerify engineering resilient trading backends, automated test frameworks for multi-dependency services, and large-scale data pipelines. Master of Science in Computer Science from Arizona State University.
+      Director at Morgan Stanley (Equity Structured Products - IST) with 6+ years specializing in distributed systems, high-throughput financial architectures, and agentic AI transformation. Department innovator pioneering mature multi-agent engineering pipelines that convert product epics into verified production code in days. Proven track record across Morgan Stanley, Goldman Sachs, and Numerify delivering resilient trading platforms, automated test suites for multi-dependency services, and large-scale data systems. MS in CS from Arizona State University.
     </p>
   </section>
 
   <section class="section">
-    <div class="section-title">Core Competencies & Technical Arsenal</div>
+    <div class="section-title">Technical Arsenal</div>
     <div class="skills-grid">
-      <div class="skill-cat">Agentic AI & Automation:</div>
-      <div class="skill-items">Mature Agentic Pipelines (Epic-to-Code in days), Claude Code, Amp, GitHub Copilot, Autonomous Multi-Agent Workflows, AI-First Architecture</div>
+      <div class="skill-cat">Agentic AI & Tooling:</div>
+      <div class="skill-items">Mature Agentic Pipelines (Epic-to-Deliverable in days), Claude Code, Amp, GitHub Copilot, Autonomous Subagents, Prompt Engineering</div>
       <div class="skill-cat">Testing & Resiliency:</div>
-      <div class="skill-items">Full-Pipeline Multi-Dependency Service Test Automation, Mockless Contract Verification, Playwright, Selenium, OpenJDK 26 Assertion Verification</div>
+      <div class="skill-items">Full Multi-Dependency Service Test Automation, Mockless Contract Verification, Playwright, Selenium, OpenJDK Assertions</div>
       <div class="skill-cat">Core Languages:</div>
       <div class="skill-items">Java (OpenJDK 26, Concurrency, Streams API), Scala (Functional Systems), Python, C++, Sybase SQL, Bash</div>
-      <div class="skill-cat">Systems & Architecture:</div>
-      <div class="skill-items">High-Throughput Trade Capture, Financial Document Generation (DocGen), Spring Boot Microservices, Distributed Systems</div>
-      <div class="skill-cat">Data & Cloud:</div>
-      <div class="skill-items">Sybase ASE, AWS Redshift, Apache Spark ML, AWS RDS Lifecycle Automation, ETL Batch Pipelines, Z-Standard Compression</div>
+      <div class="skill-cat">Platforms & Systems:</div>
+      <div class="skill-items">High-Throughput Trade Capture, Automated Document Generation (DocGen), Spring Boot, Distributed Microservices, Sybase ASE, AWS Redshift, Apache Spark ML</div>
     </div>
   </section>
 
@@ -208,26 +201,11 @@
         </div>
       </div>
       <ul class="job-bullets">
-        <li><strong>High-Throughput Financial Platforms:</strong> Architect and enhance in-house trade capture and automated document generation engines in Java and Scala for front-office sales and trading desks handling structured derivatives.</li>
-        <li><strong>Department AI Innovator & Agentic Pipelines:</strong> Pioneered mature agentic AI workflows across the department, architecting multi-agent pipelines that convert complex product epics into fully verified, production-ready code in days rather than sprints.</li>
-        <li><strong>Multi-Dependency Test Automation:</strong> Engineered comprehensive end-to-end automated test suites for deeply coupled, multi-dependency microservices, eliminating manual testing toil and catching regression issues pre-merge.</li>
-        <li><strong>Leadership & Skills Development:</strong> Championed department-wide adoption of cutting-edge AI agent tools (Claude Code, Amp, GitHub Copilot), mentoring senior and junior engineers on prompt engineering, agentic autonomy, and AI-first engineering standards.</li>
-        <li><strong>CI/CD & Monorepo Modernization:</strong> Led strategic migrations of legacy repositories onto centralized build systems, streamlining dependency trees and maximizing build integrity.</li>
-      </ul>
-    </div>
-
-    <div class="job-entry">
-      <div class="job-header">
-        <div>
-          <span class="job-title">Senior Software Engineer — Equity Structured Products</span> • <span class="company">Morgan Stanley</span>
-        </div>
-        <div>
-          <span class="job-date">March 2025 – April 2026</span> | <span class="job-location">Bengaluru, India</span>
-        </div>
-      </div>
-      <ul class="job-bullets">
-        <li>Engineered low-latency trade capture processing modules and enhanced existing document assembly pipelines.</li>
-        <li>Executed code migrations to standardized central repositories, enforcing strict CI/CD linting and build standards.</li>
+        <li><strong>High-Throughput Platforms:</strong> Architect and enhance in-house trade capture and document generation backends in Java and Scala for front-office sales and trading desks handling complex structured equity derivatives.</li>
+        <li><strong>Department AI Innovator & Agentic Pipelines:</strong> Pioneered mature agentic workflows department-wide, architecting multi-agent pipelines that convert product epics into production-ready, verified code in days rather than sprints.</li>
+        <li><strong>Multi-Dependency Test Automation:</strong> Engineered end-to-end automated test suites for deeply coupled microservices, eliminating manual testing toil and catching integration regressions pre-merge.</li>
+        <li><strong>AI Skills Leadership & Adoption:</strong> Department leader in AI capability development, training teams on autonomous developer tools (Claude Code, Amp, GitHub Copilot) and enforcing AI-first engineering standards.</li>
+        <li><strong>Monorepo Modernization:</strong> Migrated legacy repositories onto centralized build systems, streamlining dependency trees and CI/CD reliability.</li>
       </ul>
     </div>
 
@@ -241,10 +219,10 @@
         </div>
       </div>
       <ul class="job-bullets">
-        <li>Engineered core Books & Records and Asset Servicing platforms utilizing <strong>Java, Sybase SQL, and Bash scripting</strong>.</li>
-        <li>Automated software support and incident response frameworks, reducing manual support overhead by <strong>25%</strong>.</li>
-        <li>Optimized database scanning queries and reporting pipelines, cutting overall operational turnaround time by <strong>40%</strong>.</li>
-        <li>Managed rigorous trade booking validation under test environments for Quicken data integrity verification.</li>
+        <li>Engineered core Books & Records and Asset Servicing engines using <strong>Java, Sybase SQL, and Bash scripting</strong>.</li>
+        <li>Automated software support and incident response frameworks, reducing manual intervention by <strong>25%</strong>.</li>
+        <li>Optimized database scanning queries and reporting pipelines, improving turnaround time by <strong>40%</strong>.</li>
+        <li>Executed trade booking validations under test environments for Quicken data integrity verification.</li>
       </ul>
     </div>
 
@@ -259,35 +237,31 @@
       </div>
       <ul class="job-bullets">
         <li>Contributed to the <strong>Metadata Driven Application Console (MDAC)</strong> BI Modeler for customer data warehousing on AWS Redshift, implementing Z-Standard columnar compression.</li>
-        <li>Engineered automated restartable ETL batch pipelines, eliminating manual intervention across multi-phase execution.</li>
-        <li>Built platform infrastructure for custom Spark ML models to predict operational metrics on enterprise client datasets.</li>
-        <li>Automated AWS RDS server startup/shutdown hooks during ETL runs, delivering substantial cloud infrastructure cost savings.</li>
+        <li>Automated restartable ETL batch data pipelines, eliminating manual intervention across execution phases.</li>
+        <li>Provisioned Spark ML model execution platform to predict operational metrics on enterprise client datasets.</li>
+        <li>Automated AWS RDS server startup/shutdown hooks, delivering significant cloud infrastructure cost savings.</li>
       </ul>
     </div>
   </section>
 
   <section class="section">
-    <div class="section-title">Education</div>
-    <div class="edu-entry">
-      <div>
+    <div class="section-title">Education & Academic Background</div>
+    <div class="edu-grid">
+      <div class="edu-item">
         <div class="edu-school">Arizona State University (Ira A. Fulton Schools of Engineering)</div>
-        <div class="edu-degree">Master of Science (MS) in Computer Science</div>
+        <div class="edu-degree">Master of Science (MS) in Computer Science • 2019 – 2021</div>
       </div>
-      <div class="edu-date">2019 – 2021 | Tempe, AZ, USA</div>
-    </div>
-    <div class="edu-entry">
-      <div>
+      <div class="edu-item">
         <div class="edu-school">Visvesvaraya National Institute of Technology (VNIT)</div>
-        <div class="edu-degree">Bachelor of Technology (BTech) in Computer Science & Engineering</div>
+        <div class="edu-degree">Bachelor of Technology (BTech) in Computer Science & Engineering • 2013 – 2017</div>
       </div>
-      <div class="edu-date">2013 – 2017 | Nagpur, India</div>
     </div>
   </section>
 
   <section class="section">
     <div class="section-title">Algorithmic Excellence & Open Source</div>
     <p class="summary-text">
-      <strong>290 LeetCode Problems Solved</strong> (146 Easy, 137 Medium, 7 Hard) • Primary maintainer of <strong>code-lab</strong>: Monorepo holding 567 100% verified Java algorithms with official GraphQL signatures, Playwright browser automations, and Python constraint solvers.
+      <strong>290 LeetCode Problems Solved</strong> (146 Easy, 137 Medium, 7 Hard) • Creator of <strong>code-lab</strong>: Consolidated monorepo of 567 100% verified Java solutions with official GraphQL signatures, Playwright browser automations, and Python constraint solvers.
     </p>
   </section>
 
