@@ -47,18 +47,17 @@ focus: Distributed Systems, High Throughput, Pragmatic Engineering & Automation
 
 ### 💼 Career Snapshot
 
-- 🏦 **Morgan Stanley (Director P3 - Equity Structured Products)**:
-  - Engineering high-throughput in-house trade capture & document generation engines in **Java and Scala**.
-  - Pioneering **mature agentic AI workflows** department-wide, converting complex epics into verified deliverable code in days.
-  - Architecting **full test automation for multi-dependency service code**, eliminating manual integration toil and preventing regressions.
-  - Department innovator and leader in AI skills development, training teams on autonomous AI tools (**Claude Code, Amp, GitHub Copilot**).
-  - Driving strategic migration of legacy repositories onto centralized build platforms for enhanced CI/CD reliability.
+- 🏦 **Morgan Stanley (Director P3 - Equity Derivatives Technology)**:
+  - **In-House Document Generation (DocGen):** Architected and delivered an enterprise-grade document generation platform across distributed microservices in Java/Scala for front-office equity derivatives desks.
+  - **Enterprise Monorepo Modernization:** Spearheaded multi-project codebase migration onto a centralized repository and build framework, eliminating build drift and hardening CI/CD reliability.
+  - **Fast Epic Delivery via Agentic Pipelines:** Leveraged mature AI agent development workflows (Claude Code, GitHub Copilot) to convert complex derivatives engineering epics into deliverable production code in days.
+  - **High-Throughput Trade Capture:** Engineered and optimized Java and Scala backends supporting high-volume, low-latency trade capture pipelines.
 - 🏛️ **Goldman Sachs (Technology Analyst - Private Wealth Management)**:
-  - Developed Books & Records & Asset Servicing applications in Java, Sybase SQL, and Bash.
-  - Automated software support framework, reducing manual intervention by **25%** and boosting DB scan speed by **40%**.
+  - **Books & Records & Asset Servicing:** Developed transactional applications in Java, Sybase SQL, and Bash handling critical account records.
+  - **Support Automation & DB Optimization:** Automated support monitoring frameworks (reduced manual toil by **25%**) and optimized database query scans (boosted turnaround by **40%**).
 - 📊 **Numerify (Associate Software Developer - Platform)**:
-  - Built BI Application Modeler & automated ETL data pipelines on AWS Redshift with Z-Standard compression.
-  - Provisioned Spark Machine Learning training/execution platform for client data prediction metrics.
+  - **BI Application Modeler & ETL:** Built metadata-driven data warehouse tooling with Redshift Z-Standard compression and automated restartable ETL pipelines.
+  - **Cloud Cost Optimization & Spark ML:** Automated AWS RDS start/stop lifecycle hooks and provisioned Apache Spark ML model execution infrastructure.
 
 ---
 
