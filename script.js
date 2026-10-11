@@ -4,7 +4,30 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // 1. Live IST Clock in Top Status Bar
+  // 1. Theme Toggle (Light by default, persistent with localStorage)
+  const themeToggleBtn = document.getElementById('theme-toggle-btn');
+  const themeIcon = document.getElementById('theme-icon');
+  
+  const savedTheme = localStorage.getItem('portfolio-theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+  if (themeIcon) {
+    themeIcon.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+  }
+
+  if (themeToggleBtn) {
+    themeToggleBtn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('portfolio-theme', newTheme);
+      if (themeIcon) {
+        themeIcon.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+      }
+      showToast(`Switched to <strong>${newTheme === 'dark' ? 'Dark' : 'Light'} Mode</strong>`);
+    });
+  }
+
+  // 2. Live IST Clock in Top Status Bar
   const clockElement = document.getElementById('live-ist-clock');
   const updateISTClock = () => {
     if (!clockElement) return;
@@ -21,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
   updateISTClock();
   setInterval(updateISTClock, 1000);
 
-  // 2. Animated LeetCode Metrics Counters
+  // 3. Animated LeetCode Metrics Counters
   const counters = [
     { id: 'leetcode-total', target: 290 },
     { id: 'leetcode-easy', target: 146 },
@@ -62,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(leetcodeSection);
   }
 
-  // 3. Toast Notification Helper
+  // 4. Toast Notification Helper
   const toastContainer = document.getElementById('toast-container');
   const showToast = (message, isMatcha = false) => {
     if (!toastContainer) return;
@@ -81,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3200);
   };
 
-  // 4. One-Click Copy Email
+  // 5. One-Click Copy Email
   const copyBtn = document.getElementById('copy-email-btn');
   const copyText = document.getElementById('copy-text');
   if (copyBtn) {
@@ -99,13 +122,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 5. Fun "Sip Matcha" Button
+  // 6. Fun "Sip Matcha" Button
   const matchaBtn = document.getElementById('sip-matcha-btn');
   const matchaQuotes = [
     "🍵 Ceremonial Uji matcha sipped! +10 Focus, 0 compiler warnings.",
-    "🍵 Whisked to perfection. Clean architecture mode unlocked.",
+    "🍵 Whisked to perfection. Clean agentic architecture mode unlocked.",
     "🍵 Pure matcha energy: O(1) latency, zero jitters.",
-    "🍵 Smooth sip. Ready to design high-throughput trade capture engines."
+    "🍵 Smooth sip. Ready to turn complex epics into production code in days."
   ];
   let quoteIdx = 0;
   if (matchaBtn) {
@@ -116,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 6. Interactive Terminal CLI
+  // 7. Interactive Terminal CLI
   const terminalScreen = document.getElementById('terminal-screen');
   const terminalInput = document.getElementById('terminal-input');
   const terminalRunBtn = document.getElementById('terminal-run-btn');
@@ -147,20 +170,33 @@ document.addEventListener('DOMContentLoaded', () => {
       case 'whoami':
         appendToTerminal(`
           <div class="t-out">► <strong>Abhishek Kinagi</strong> — Director P3 @ Morgan Stanley (IST)</div>
-          <div class="t-out">► Systems: High-throughput Trade Capture & Document Generation (Java / Scala)</div>
+          <div class="t-out">► Department AI Innovator: Converting product epics to production code in days via agentic pipelines</div>
+          <div class="t-out">► Systems: High-throughput Trade Capture & Document Generation (Java 26 / Scala)</div>
           <div class="t-out">► Education: MS in CS (Arizona State) • BTech in CS (VNIT Nagpur)</div>
           <div class="t-out">► Background: Ex-Goldman Sachs (Private Wealth Management) • Ex-Numerify</div>
           <div class="t-out">► Fuel: <span class="t-matcha">Ceremonial Japanese Matcha 🍵</span></div>
         `);
         break;
 
+      case 'ai':
+      case 'agents':
+      case 'agentic':
+        appendToTerminal(`
+          <div class="t-out">► <span class="t-ai">Mature Agentic Pipelines:</span> Orchestrating multi-agent systems to deliver full product epics in days.</div>
+          <div class="t-out">► <span class="t-ai">Autonomous Tooling:</span> Power user & instructor across Claude Code, Amp, GitHub Copilot, and custom subagents.</div>
+          <div class="t-out">► <span class="t-ai">Multi-Dependency Testing:</span> Full test automation across tightly coupled service graphs.</div>
+          <div class="t-out">► <span class="t-ai">Mindset:</span> AI-first systems architecture with deterministic assertion validation.</div>
+        `);
+        break;
+
       case 'skills':
       case 'weapons':
         appendToTerminal(`
-          <div class="t-out">► <span class="t-highlight">Languages:</span> Java 26, Scala, Python, C++, SQL (Sybase, Redshift)</div>
-          <div class="t-out">► <span class="t-highlight">Systems:</span> High-Throughput Trade Capture, Spring Boot, Distributed Pipelines</div>
-          <div class="t-out">► <span class="t-highlight">Data:</span> AWS Redshift, Apache Spark ML, Sybase ASE</div>
-          <div class="t-out">► <span class="t-highlight">Testing & Tooling:</span> Playwright, Selenium, Bash, Git monorepos, OpenJDK -ea</div>
+          <div class="t-out">► <span class="t-ai">Agentic AI:</span> Multi-agent pipelines, Claude Code, Amp, Copilot, Epic-to-Code acceleration</div>
+          <div class="t-out">► <span class="t-highlight">Languages:</span> Java 26 (Streams, Concurrency), Scala, Python, C++, Sybase SQL</div>
+          <div class="t-out">► <span class="t-highlight">Systems:</span> High-Throughput Trade Capture, Spring Boot, Distributed Microservices</div>
+          <div class="t-out">► <span class="t-highlight">Testing:</span> Full multi-dependency test automation, Playwright, Selenium, OpenJDK -ea</div>
+          <div class="t-out">► <span class="t-highlight">Data & Cloud:</span> Sybase ASE, AWS Redshift, Apache Spark ML</div>
         `);
         break;
 
@@ -221,12 +257,12 @@ document.addEventListener('DOMContentLoaded', () => {
         appendToTerminal(`
           <div class="t-out">Available commands:</div>
           <div class="t-out">  <span class="t-highlight">whoami</span>    - Executive profile & background</div>
+          <div class="t-out">  <span class="t-ai">ai</span>        - Agentic workflows & AI engineering pipelines</div>
           <div class="t-out">  <span class="t-highlight">skills</span>    - Core weapons & technology stack</div>
           <div class="t-out">  <span class="t-highlight">leetcode</span>  - Real-time algorithmic metrics & recent solves</div>
           <div class="t-out">  <span class="t-highlight">matcha</span>    - Brew fresh ceremonial matcha 🍵</div>
-          <div class="t-out">  <span class="t-highlight">resume</span>    - View / Download PDF resume</div>
+          <div class="t-out">  <span class="t-highlight">resume</span>    - View / Download updated PDF resume</div>
           <div class="t-out">  <span class="t-highlight">projects</span>  - Monorepo highlights (code-lab)</div>
-          <div class="t-out">  <span class="t-highlight">date</span>      - Show current IST and UTC time</div>
           <div class="t-out">  <span class="t-highlight">clear</span>     - Clear terminal buffer</div>
         `);
         break;
@@ -278,7 +314,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 7. Interactive Skills / Weapons Filter
+  // 8. Interactive Skills / Weapons Filter
   const skillTabs = document.querySelectorAll('.skill-tab');
   const skillCards = document.querySelectorAll('.skill-card');
 

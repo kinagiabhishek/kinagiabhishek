@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhishek Kinagi | Director @ Morgan Stanley</title>
-  <meta name="description" content="Portfolio of Abhishek Kinagi - Director at Morgan Stanley (Equity Structured Products), Ex-Goldman Sachs, MS in CS from Arizona State University.">
+  <title>Abhishek Kinagi | Director @ Morgan Stanley | Systems & AI Innovator</title>
+  <meta name="description" content="Portfolio of Abhishek Kinagi - Director at Morgan Stanley (Equity Structured Products), Department AI Innovator, Agentic Systems Leader, Ex-Goldman Sachs.">
   <meta property="og:title" content="Abhishek Kinagi | Director @ Morgan Stanley">
-  <meta property="og:description" content="Director at Morgan Stanley (IST) | Ex-Goldman Sachs | MS in CS (ASU) | BTech in CS (VNIT) | Systems, Algorithms & Matcha.">
+  <meta property="og:description" content="Director at Morgan Stanley (IST) | Department AI Innovator | Agentic Pipelines | Ex-Goldman Sachs | MS in CS (ASU) | Java, Scala & Matcha.">
   <meta property="og:image" content="profile.png">
   <meta property="og:type" content="website">
   
@@ -26,6 +26,9 @@
         <span class="ticker-badge">Focus</span> Trade Capture & DocGen @ Morgan Stanley
       </div>
       <div class="ticker-item">
+        <span class="ticker-badge ai-badge">Agentic AI</span> Epic-to-Code in Days ⚡
+      </div>
+      <div class="ticker-item">
         <span class="ticker-badge matcha-badge">Fuel</span> Ceremonial Uji Matcha 🍵
       </div>
       <div class="ticker-item">
@@ -43,12 +46,15 @@
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Weapons</a></li>
+        <li><a href="#skills">Arsenal</a></li>
         <li><a href="#monorepo">code-lab</a></li>
         <li><a href="#leetcode">LeetCode</a></li>
         <li><a href="#education">Education</a></li>
       </ul>
       <div class="nav-actions">
+        <button id="theme-toggle-btn" class="nav-btn-theme" title="Toggle theme (Light / Dark)">
+          <span id="theme-icon">🌙</span>
+        </button>
         <button id="copy-email-btn" class="nav-btn-copy" title="Copy email address">
           📋 <span id="copy-text">Copy Email</span>
         </button>
@@ -62,14 +68,14 @@
     <div class="container hero-grid">
       <div class="hero-content">
         <div class="hero-tag">
-          <span>🍵</span> Systems Builder • Director @ Morgan Stanley
+          <span>🍵</span> Director @ Morgan Stanley • Department AI Innovator & Agentic Leader
         </div>
         <h1 class="hero-title">
           Hi, I'm <span class="gradient-text">Abhishek Kinagi</span>
         </h1>
         <p class="hero-desc">
           Director at <strong>Morgan Stanley</strong> in Equity Structured Products (IST), ex-<strong>Goldman Sachs</strong> and <strong>Numerify</strong>.
-          I engineer high-throughput trade capture & document generation backends, build algorithmic monorepos, and run on pure ceremonial matcha.
+          I engineer high-throughput trade capture & document generation backends, build <strong>mature agentic AI pipelines</strong> that convert complex epics into verified production code in days, and run on ceremonial matcha.
         </p>
         <div class="hero-buttons">
           <a href="Abhishek_Kinagi_Resume.pdf" target="_blank" class="btn-primary">
@@ -107,6 +113,7 @@
           
           <div class="terminal-chips">
             <button class="t-chip" data-cmd="whoami">whoami</button>
+            <button class="t-chip" data-cmd="ai">ai pipelines 🤖</button>
             <button class="t-chip" data-cmd="skills">skills</button>
             <button class="t-chip" data-cmd="leetcode">leetcode</button>
             <button class="t-chip" data-cmd="matcha">matcha 🍵</button>
@@ -117,15 +124,16 @@
           <div class="terminal-body" id="terminal-screen">
             <div class="t-line"><span class="t-prompt">kinagi@workstation:~$</span> <span class="t-cmd">whoami</span></div>
             <div class="t-out">► Abhishek Kinagi — Director P3 @ Morgan Stanley (IST)</div>
-            <div class="t-out">► Systems: High-throughput Trade Capture & DocGen (Java/Scala)</div>
+            <div class="t-out">► Department AI Innovator: Converting product epics to production code in days via agentic pipelines</div>
+            <div class="t-out">► Systems: High-throughput Trade Capture & Document Generation (Java 26 / Scala)</div>
             <div class="t-out">► Alum: MS in CS (ASU) • BTech in CS (VNIT Nagpur)</div>
             <div class="t-out">► LeetCode: <span class="t-highlight">290 Solved</span> (146 Easy | 137 Med | 7 Hard)</div>
-            <div class="t-out">► Vibe: <span class="t-highlight">Ceremonial matcha, clean git trees & low latency 🍵</span></div>
+            <div class="t-out">► Vibe: <span class="t-matcha">Ceremonial matcha, clean git trees & low latency 🍵</span></div>
           </div>
 
           <div class="terminal-input-bar">
             <span class="t-prompt">kinagi@workstation:~$</span>
-            <input type="text" id="terminal-input" placeholder="Type a command (help, matcha, skills)..." autocomplete="off" spellcheck="false" />
+            <input type="text" id="terminal-input" placeholder="Type a command (ai, skills, matcha, help)..." autocomplete="off" spellcheck="false" />
             <button id="terminal-run-btn" title="Execute command">↵</button>
           </div>
         </div>
@@ -139,7 +147,7 @@
       <h2 class="section-title">
         <span class="gradient-text">Professional Experience</span>
       </h2>
-      <p class="section-subtitle">Track record across Morgan Stanley, Goldman Sachs, and High-Scale Platform Engineering</p>
+      <p class="section-subtitle">Leadership across Morgan Stanley, Goldman Sachs, and High-Scale Platform Engineering</p>
 
       <div class="timeline">
         <!-- Morgan Stanley -->
@@ -152,11 +160,11 @@
             </div>
           </div>
           <ul class="experience-list">
-            <li>Engineering high-throughput in-house <strong>trade capture & document generation platforms</strong> in Java and Scala for front-office sales and trading desks.</li>
-            <li>Leading strategic migration of legacy repositories onto centralized build platforms, improving CI/CD reliability and dependency management.</li>
-            <li>Driving automation-first engineering to accelerate software delivery and eliminate operational toil.</li>
-            <li>Collaborating with front-office business stakeholders, sales, and traders to streamline pre-trade and post-trade documentation pipelines.</li>
-            <li>Mentoring engineers through hands-on technical guidance, system design reviews, and architectural debugging.</li>
+            <li><strong>High-Throughput Financial Platforms:</strong> Architecting and enhancing in-house trade capture and automated document generation engines in Java and Scala for front-office sales and trading desks handling structured derivatives.</li>
+            <li><strong>Department AI Innovator & Agentic Pipelines:</strong> Pioneered mature agentic AI workflows across the department, architecting multi-agent pipelines that convert complex product epics into fully verified, production-ready code in days rather than sprints.</li>
+            <li><strong>Multi-Dependency Test Automation:</strong> Engineered comprehensive end-to-end automated test suites for deeply coupled, multi-dependency microservices, eliminating manual testing toil and catching regression issues pre-merge.</li>
+            <li><strong>Leadership & Skills Development:</strong> Championed department-wide adoption of cutting-edge AI agent tools (<strong>Claude Code, Amp, GitHub Copilot</strong>), mentoring engineers on prompt engineering, agentic autonomy, and AI-first engineering standards.</li>
+            <li><strong>CI/CD & Monorepo Modernization:</strong> Led strategic migrations of legacy repositories onto centralized build systems, streamlining dependency trees and maximizing build integrity.</li>
           </ul>
         </div>
 
@@ -170,10 +178,10 @@
             </div>
           </div>
           <ul class="experience-list">
-            <li>Engineered Books & Records and Asset Servicing engines using <strong>Java, Sybase SQL, and Bash</strong>.</li>
-            <li>Automated software support frameworks, reducing manual support intervention by <strong>25%</strong>.</li>
-            <li>Optimized database scanning tools for reporting, improving overall operational turnaround time by <strong>40%</strong>.</li>
-            <li>Managed trade booking under test environments for Quicken data integrity verification.</li>
+            <li>Engineered core Books & Records and Asset Servicing platforms utilizing <strong>Java, Sybase SQL, and Bash scripting</strong>.</li>
+            <li>Automated software support and incident response frameworks, reducing manual support overhead by <strong>25%</strong>.</li>
+            <li>Optimized database scanning queries and reporting pipelines, cutting overall operational turnaround time by <strong>40%</strong>.</li>
+            <li>Managed rigorous trade booking validation under test environments for Quicken data integrity verification.</li>
           </ul>
         </div>
 
@@ -187,10 +195,10 @@
             </div>
           </div>
           <ul class="experience-list">
-            <li>Contributed to the <strong>Metadata Driven Application Console (MDAC)</strong> BI Application Modeler for customer data warehousing on AWS Redshift.</li>
-            <li>Automated ETL Batch Data Pipelines with restart-ability features across processing phases.</li>
-            <li>Provisioned Spark ML model training and execution platform for client metric prediction.</li>
-            <li>Implemented automated AWS RDS server startup/shutdown hooks, yielding major cloud cost reductions.</li>
+            <li>Contributed to the <strong>Metadata Driven Application Console (MDAC)</strong> BI Modeler for customer data warehousing on AWS Redshift, implementing Z-Standard columnar compression.</li>
+            <li>Engineered automated restartable ETL batch pipelines, eliminating manual intervention across multi-phase execution.</li>
+            <li>Built platform infrastructure for custom Spark ML models to predict operational metrics on enterprise client datasets.</li>
+            <li>Automated AWS RDS server startup/shutdown hooks during ETL runs, delivering substantial cloud infrastructure cost savings.</li>
           </ul>
         </div>
       </div>
@@ -201,19 +209,46 @@
   <section id="skills">
     <div class="container">
       <h2 class="section-title">
-        <span class="gradient-text">Weapons of Choice</span>
+        <span class="gradient-text">Technical Arsenal & Weapons of Choice</span>
       </h2>
-      <p class="section-subtitle">Battle-tested tools and systems I build with every day</p>
+      <p class="section-subtitle">Battle-tested tools, agentic pipelines, and systems I build with every day</p>
 
       <div class="skills-filter-bar">
         <button class="skill-tab active" data-filter="all">All Weapons</button>
+        <button class="skill-tab" data-filter="ai">Agentic AI & Automation</button>
         <button class="skill-tab" data-filter="languages">Languages</button>
         <button class="skill-tab" data-filter="systems">Systems & Trading</button>
         <button class="skill-tab" data-filter="data">Data Platforms</button>
-        <button class="skill-tab" data-filter="tools">Testing & Automation</button>
       </div>
 
       <div class="skills-grid">
+        <div class="glass-card skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <span class="skill-card-icon">⚡</span>
+            <span class="skill-card-tag">Agentic Core</span>
+          </div>
+          <h4>Mature Agentic Pipelines</h4>
+          <p>Architecting multi-agent execution pipelines that translate complex product epics into production-grade code, AST checks, and unit tests in days.</p>
+        </div>
+
+        <div class="glass-card skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <span class="skill-card-icon">🤖</span>
+            <span class="skill-card-tag">AI Developer Suite</span>
+          </div>
+          <h4>Claude Code, Amp & Copilot</h4>
+          <p>Power user, innovator, and department mentor in agentic CLI tooling, context engineering, autonomous subagents, and AI-first engineering workflows.</p>
+        </div>
+
+        <div class="glass-card skill-card" data-category="ai">
+          <div class="skill-card-top">
+            <span class="skill-card-icon">🛡️</span>
+            <span class="skill-card-tag">Resilience</span>
+          </div>
+          <h4>Multi-Dependency Test Automation</h4>
+          <p>Full-pipeline automated test frameworks for complex microservice graphs, contract validation, and eliminating manual integration testing toil.</p>
+        </div>
+
         <div class="glass-card skill-card" data-category="languages">
           <div class="skill-card-top">
             <span class="skill-card-icon">☕</span>
@@ -275,24 +310,6 @@
           </div>
           <h4>AWS Redshift & Spark</h4>
           <p>Large-scale ETL data pipelines, Z-Standard column encoding, and Spark ML distributed training metrics.</p>
-        </div>
-
-        <div class="glass-card skill-card" data-category="tools">
-          <div class="skill-card-top">
-            <span class="skill-card-icon">🎭</span>
-            <span class="skill-card-tag">Browser Auto</span>
-          </div>
-          <h4>Playwright & Selenium</h4>
-          <p>Automated web workflow pipelines, headless browser execution, and end-to-end resilience frameworks.</p>
-        </div>
-
-        <div class="glass-card skill-card" data-category="tools">
-          <div class="skill-card-top">
-            <span class="skill-card-icon">🌿</span>
-            <span class="skill-card-tag">DevOps</span>
-          </div>
-          <h4>Git Monorepos & CI/CD</h4>
-          <p>Centralized build migrations, strict branch policies, zero-dirty trees, and high-velocity continuous integration.</p>
         </div>
       </div>
     </div>

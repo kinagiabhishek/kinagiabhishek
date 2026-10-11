@@ -42,8 +42,8 @@ education:
 prior_experience:
   - Technology Analyst @ Goldman Sachs (PWM Books & Records)
   - Associate Software Developer @ Numerify (ETL & Spark ML Platform)
-technical_stack: Java, Scala, Python, Sybase SQL, AWS Redshift, Selenium, Bash
-mindset: Agentic AI-First, Automation-First, High Throughput, Rapid Execution
+technical_stack: Java 26, Scala, Agentic AI Pipelines (Claude Code, Amp, Copilot), Multi-Dependency Test Automation, Python, Sybase SQL, AWS Redshift, Bash
+mindset: Agentic AI-First, Autonomous Multi-Agent Systems, High Throughput, Rapid Execution
 ```
 
 ---
@@ -51,9 +51,11 @@ mindset: Agentic AI-First, Automation-First, High Throughput, Rapid Execution
 ### 💼 Career Snapshot
 
 - 🏦 **Morgan Stanley (Director P3 - Equity Structured Products)**:
-  - Engineering high-throughput trade capture & document generation engines in **Java and Scala**.
-  - Driving migration of legacy repositories onto centralized build platforms for enhanced CI/CD reliability.
-  - Championing **agentic AI workflows** (`agy`) and automation-first engineering across teams.
+  - Engineering high-throughput in-house trade capture & document generation engines in **Java and Scala**.
+  - Pioneering **mature agentic AI workflows** department-wide, converting complex epics into verified deliverable code in days.
+  - Architecting **full test automation for multi-dependency service code**, eliminating manual integration toil and preventing regressions.
+  - Department innovator and leader in AI skills development, training teams on autonomous AI tools (**Claude Code, Amp, GitHub Copilot**).
+  - Driving strategic migration of legacy repositories onto centralized build platforms for enhanced CI/CD reliability.
 - 🏛️ **Goldman Sachs (Technology Analyst - Private Wealth Management)**:
   - Developed Books & Records & Asset Servicing applications in Java, Sybase SQL, and Bash.
   - Automated software support framework, reducing manual intervention by **25%** and boosting DB scan speed by **40%**.
