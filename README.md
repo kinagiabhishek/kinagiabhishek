@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+280%2B+LeetCode+Solved" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+290%2B+LeetCode+Solved" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -67,9 +67,9 @@ mindset: Agentic AI-First, Automation-First, High Throughput, Rapid Execution
 
 <p align="center">
   <a href="https://leetcode.com/u/kinagiabhishek/">
-    <img src="https://img.shields.io/badge/LeetCode_Solved-286_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Solved" />
+    <img src="https://img.shields.io/badge/LeetCode_Solved-290_Problems-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode Solved" />
     <img src="https://img.shields.io/badge/Easy-146-00B8A3?style=for-the-badge" alt="Easy" />
-    <img src="https://img.shields.io/badge/Medium-133-FFC01E?style=for-the-badge" alt="Medium" />
+    <img src="https://img.shields.io/badge/Medium-137-FFC01E?style=for-the-badge" alt="Medium" />
     <img src="https://img.shields.io/badge/Hard-7-FF375F?style=for-the-badge" alt="Hard" />
   </a>
 </p>
