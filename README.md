@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+%40+Morgan+Stanley;MS+in+CS+(Arizona+State)+%E2%80%A2+BTech+CS+(VNIT);Equity+Structured+Products+%E2%80%A2+Java+%E2%80%A2+Scala;Ex-Goldman+Sachs+%E2%80%A2+Agentic+AI+Innovator" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=61AFEF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Abhishek+Kinagi;Director+at+Morgan+Stanley;Equity+Derivatives+Technology;Ex-Goldman+Sachs;MS+in+CS+(ASU)" alt="Typing SVG" />
   </a>
 </h1>
 
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <b>Director P3 @ Morgan Stanley</b> • Equity Structured Products (IST) • MS in CS (ASU)
+  <b>Director at Morgan Stanley | Equity Derivatives Technology | Ex-Goldman Sachs | MS in CS (ASU)</b>
 </p>
 
 <p align="center">
@@ -31,16 +31,16 @@
 ```yaml
 name: Abhishek Kinagi
 role: Director P3
-company: Morgan Stanley (Institutional Securities Technology - IST)
-division: Equity Structured Products (Trade Capture & Document Generation Platforms)
+company: Morgan Stanley
+division: Equity Derivatives Technology / Equity Structured Products
 education:
   - MS in Computer Science, Arizona State University (ASU)
-  - BTech in Computer Science & Engineering, VNIT Nagpur (4-Year Campus Leadership & Event Operations)
+  - BTech in Computer Science & Engineering, VNIT Nagpur (4-Year Campus Leadership)
 prior_experience:
   - Technology Analyst @ Goldman Sachs (PWM Books & Records)
-  - Associate Software Developer @ Numerify (ETL & Spark ML Platform)
-technical_stack: Java 26, Scala, Agentic AI Pipelines (Claude Code, Amp, Copilot), Multi-Dependency Test Automation, Python, Sybase SQL, AWS Redshift, Bash
-mindset: Agentic AI-First, Autonomous Multi-Agent Systems, High Throughput, Rapid Execution
+  - Associate Software Developer @ Numerify (Platform & ETL)
+technical_stack: Java 26, Scala, AI Agent Workflows (Claude Code, Amp, Copilot), Multi-Dependency Test Automation, Python, Sybase SQL, Bash
+focus: Distributed Systems, High Throughput, Pragmatic Engineering & Automation
 ```
 
 ---
